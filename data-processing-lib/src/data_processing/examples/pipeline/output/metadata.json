@@ -1,0 +1,52 @@
+{
+  "job details": {
+    "job category": "preprocessing",
+    "job name": "pipeline",
+    "job type": "spark",
+    "start_time": "2025-04-24 19:47:04",
+    "end_time": "2025-04-24 19:47:12",
+    "status": "success"
+  },
+  "job_input_params": {
+    "max_rows_per_table": 250,
+    "max_mbytes_per_table": -1,
+    "size_type": "disk",
+    "sleep_sec": 2,
+    "checkpointing": false,
+    "max_files": -1,
+    "random_samples": -1,
+    "files_to_use": [
+      ".parquet"
+    ],
+    "files_to_checkpoint": [
+      ".parquet"
+    ],
+    "RDD parallelization": -1
+  },
+  "execution_stats": {
+    "cpus": 10,
+    "gpus": 0,
+    "memory": 0.42,
+    "num partitions": 10,
+    "execution time, min": 0.128
+  },
+  "job_output_stats": {
+    "source_size": 117483,
+    "processing_time": 9.424,
+    "result_size": 150450,
+    "result_files": 6,
+    "source_doc_count": 1200,
+    "nfiles": 3,
+    "nrows": 600,
+    "source_files": 3,
+    "result_doc_count": 0
+  },
+  "source": {
+    "name": "/Users/alexey/goWork/src/github.com/data-preprocessing/dpk-alliance/data-processing-lib/test-data/resize/input",
+    "type": "path"
+  },
+  "target": {
+    "name": "/Users/alexey/goWork/src/github.com/data-preprocessing/dpk-alliance/data-processing-lib/src/data_processing/examples/pipeline/output",
+    "type": "path"
+  }
+}

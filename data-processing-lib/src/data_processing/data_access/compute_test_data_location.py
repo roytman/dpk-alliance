@@ -8,7 +8,8 @@ def compute_data_location(loc: str) -> str:
     :return: absolute location
     """
     location = os.path.dirname(__file__)
-    sp = location.split("src")[0]
+    dirs = location.split("src")
+    sp = dirs[0] + "src" + dirs[1]
     return sp + loc
 
 
